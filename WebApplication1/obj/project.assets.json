@@ -469,23 +469,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\seminar\\.nuget\\packages\\": {},
+    "C:\\Users\\ss321\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\PH\\kt-14\\tichnut\\Sarah Schachter\\c#\\lesson15\\HomeWork-c-\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\ss321\\Documents\\GitHub\\HomeWork-c-\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "M:\\PH\\kt-14\\tichnut\\Sarah Schachter\\c#\\lesson15\\HomeWork-c-\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\seminar\\.nuget\\packages\\",
-      "outputPath": "M:\\PH\\kt-14\\tichnut\\Sarah Schachter\\c#\\lesson15\\HomeWork-c-\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\ss321\\Documents\\GitHub\\HomeWork-c-\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\ss321\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ss321\\Documents\\GitHub\\HomeWork-c-\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\seminar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ss321\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -507,6 +507,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -533,6 +538,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -541,7 +564,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
